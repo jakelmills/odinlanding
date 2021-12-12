@@ -1,0 +1,35 @@
+body {
+  font-family: helvetica, sans-serif;
+}
+
+a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.inner {
+  width: 70%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #1f2937;
+  padding: 32px 0;
+}
+
+header .inner {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+header nav a {
+  margin-left: 16px;
+}
