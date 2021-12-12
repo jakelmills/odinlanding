@@ -67,7 +67,7 @@ header nav a {
   line-height: 1.25;
 }
 
-#hero .cta-button {
+.cta-button {
   color: #f9faf8;
   font-weight: 600;
   background-color: #3882f6;
@@ -135,4 +135,43 @@ header nav a {
 #quote figcaption {
   text-align: right;
   font-size: 16px;
+}
+
+#cta  {
+  padding-top: 80px;
+}
+
+.cta-box {
+  background-color: #3882f6;
+  border-radius: 8px;
+  width: 100%;
+display: flex;
+flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#cta h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+
+#cta p {
+  color: #e5e7eb;
+}
+
+.cta-content, .cta-box .cta-button {
+  margin: 40px 80px 40px 80px;
+}
+
+.cta-box .cta-button {
+  border: solid 1px #e5e7eb;
+}
+
+footer {
+  padding: 40px 0;
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
 }
