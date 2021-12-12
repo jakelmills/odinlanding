@@ -7,6 +7,10 @@ a {
   text-decoration: none;
 }
 
+section {
+  padding-bottom: 120px;
+}
+
 .inner {
   width: 70%;
   margin: 0 auto;
@@ -32,4 +36,81 @@ header h1 {
 
 header nav a {
   margin-left: 16px;
+}
+
+#hero {
+  background-color: #1f2937;
+  padding-top: 80px;
+}
+
+#hero .inner {
+  display: flex;
+  flex: 1;
+  align-items: flex-end;
+}
+
+#hero .content {
+  width: 50%;
+  margin-right: 48px;
+}
+
+#hero .content h2 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.5;
+  color: #f9faf8;
+}
+
+#hero .content p {
+  font-size: 18px;
+  color: #e5e7eb;
+  line-height: 1.25;
+}
+
+#hero .cta-button {
+  color: #f9faf8;
+  font-weight: 600;
+  background-color: #3882f6;
+  padding: 16px 40px;
+  border-radius: 8px;
+  margin-top: 40px;
+  display: inline-block;
+}
+
+#hero .img-placeholder {
+  height: 250px;
+  width: 600px;
+  background-color: grey;
+}
+
+#info {
+  padding-top: 80px;
+}
+
+#info .inner {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#info h3 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+#info .info-content .img-box {
+  width: 200px;
+  height: 200px;
+  border: solid 4px #3882f6;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+#info .info-content p {
+  text-align: center;
+  color: #1f2937;
 }
